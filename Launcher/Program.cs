@@ -55,6 +55,7 @@ namespace Launcher
         }
         private void cls(object sender, FormClosingEventArgs e)
         {
+            frm = new Form1();
             trayIcon.Visible = true;
         }
     }
